@@ -5,15 +5,16 @@
 <h1>Welcome to Luca Salvo's Webpage</h1>
 
 <a href="\ArduinoPage\index.html"> Arduino Page </a>
+<p></p>
 <a href="\ATTiny85Page\index.html"> ATTiny85 Page </a>
+<p></p>
 
-
-<button type="button" name="but" onclick="myFunction()"> Click me! </button>
-<text name="tb_clicked"> "Please click it" <text>
+<button type="button" id="but" onclick="myFunction();"> Click me! </button>
+<p id='tb_clicked'> "Please click it" </p>
 
 <script>
 	function myFunction(){
-		document.getElementById("tb_clicked").innerHTML = "You have clicked the button";
+		document.getElementById('tb_clicked').innerHTML = "You have clicked the button";
 	}
 </script>
 
