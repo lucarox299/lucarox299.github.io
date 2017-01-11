@@ -1,11 +1,21 @@
 <!DOCTYPE html>
 <html>
 <body>
+
 <h1>Welcome to Luca Salvo's Webpage</h1>
+
 <a href="\ArduinoPage\index.html"> Arduino Page </a>
 <a href="\ATTiny85Page\index.html"> ATTiny85 Page </a>
+
+
+<button type="button" name="but" onclick="myFunction()"> Click me! </button>
+<text name="tb_clicked"> "Please click it" <text>
+
+<script>
+	function myFunction(){
+		document.getElementById("tb_clicked").innerHTML = "You have clicked the button";
+	}
+</script>
+
 </body>
-
-<script> alert('test'); </script>
-
 </html>
